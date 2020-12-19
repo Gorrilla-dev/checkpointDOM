@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+    background-color: rgb(255, 206, 142);
+}
+
+main{
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0px 2px 30px grey;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+article{
+    width: 100%;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+article:last-child{
+    margin-bottom: 0px;
+}
+
+span:not(#price):not(.money){
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 5px 9px;
+}
+
+#checkout{
+    justify-content: flex-end;
+}
+
+button{
+    margin-left: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+}
+
+.fa-heart{
+    color: red;
+}
+
+#ex1{
+    width: 100%;
+}
